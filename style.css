@@ -1,0 +1,139 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+}
+
+.content {
+  position: relative;
+  width: 375px;
+  background-color: #e5e5e5;
+}
+
+.top {
+  position: fixed;
+  width: 380px;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.top img {
+  width: 75px;
+  height: 53px;
+  padding-left: 22px;
+}
+
+.top ion-icon {
+  width: 45px;
+  height: 45px;
+  padding-right: 22px;
+}
+
+.bottom {
+  z-index: 1;
+  position: fixed;
+  width: 380px;
+  height: 80px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffffff;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.inputText {
+  width: 320px;
+  height: 75px;
+  padding-left: 15px;
+  border: none;
+  background-color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[placeholder='Escreva aqui...'] {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  color: #171717;
+}
+
+.send {
+  width: 60px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.send ion-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.chatArea {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  padding-top: 26px;
+}
+
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  width: 380px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 4px 0;
+  border-radius: 2px;
+  justify-content: left;
+  align-items: center;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.message user {
+  font-weight: bold;
+  margin: 0 3px;
+}
+
+.message time {
+  color: grey;
+}
+.message message {
+  margin-left: 3px;
+  word-break: break-all;
+}
+.status {
+  background-color: #dcdcdc;
+}
+.private_message {
+  background-color: #ffdede;
+}
+message {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+user {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
